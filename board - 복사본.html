@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="board.css">
+    <style>
+        td {
+            background: white;
+            color: black;
+            font-weight: bold;
+            font-family: 굴림;
+        }
+    </style>
+</head>
+
+<body>
+    <from action="check">
+        <h1>border</h1>
+        <br>
+        <table border="1">
+            <tr>
+                <td> 항목 </td>
+                <td> 입력 </td>
+            </tr>
+            <tr>
+                <td>번호</td>
+                <td><input type="text" name="num"> </td>
+            </tr>
+            <tr>
+                <td>제목</td>
+                <td><input type="text" name="title"></td>
+
+            </tr>
+            <tr>
+                <td>내용</td>
+                <td><input type="text" name="text"></td>
+            </tr>
+            <tr>
+                <td>작성자</td>
+                <td><input type="text" name="writer"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" style="background: yellowgreen;">
+                    <input type="submit" style="background: white; color: green;" value="글쓰기 완료.">
+                </td>
+            </tr>
+
+
+        </table>
+    </from>
+</body>
+
+</html>

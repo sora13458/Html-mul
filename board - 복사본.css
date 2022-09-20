@@ -1,0 +1,19 @@
+h1 {
+    color: peru;
+}
+input {
+    text-align: center;
+    background: pink;
+}
+button {
+    background: rgb(42, 125, 227);
+    color: rgb(174, 119, 140);
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+table {
+    text-align: center;
+    background: white;
+    color: darkblue;
+}
